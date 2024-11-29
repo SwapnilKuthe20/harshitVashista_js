@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="13_domManup.css">
+    <!-- <script src="13_domManup.js" defer></script> -->
+    <script src="13_domTree.js" defer></script>
+    <title>Dom-Manupulation</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <h2 id="logo">Dom-Website</h2>
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="">To-do</a></li>
+                    <li class="nav-item"><a href="">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="learnMore-sec">
+            <h3>Manage Your Task </h3>
+            <button class="btn">Learn More</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3 class="To-do-sec">Your Plan for Today !</h3>
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add Todo here...">
+            <input type="submit" value="add to-do" class="btn btn-todo">
+        </form>
+    </div>
+
+    <section class="container">
+        <h3 class="signUp-heading">Sign Up Form</h3>
+        <form action="" class="signUp-form">
+            <div>
+                <label for="userName">User Name</label>
+                <input type="text" name="userName" id="userName" placeholder="Username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+            <div>
+                <label for="confirm-pass">Confirm Password</label>
+                <input type="password" name="confirm-pass" id="confirm-pass" placeholder="Confirm password">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div>
+                <label for="Address">Address</label>
+                <textarea rows="6" cols="" name="Address" id="Address" placeholder="Enter Address"
+                    class="textArea"></textarea>
+            </div>
+            <input type="submit" name="Submit" class="btn">
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
